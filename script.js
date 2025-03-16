@@ -550,7 +550,7 @@ function drawParticlesBlueBallonExplision() {
     function animateBlueBalloon() {
     if (!blueballon.isPopped) {
         // Lasse den Ballon wachsen
-        if (blueballon.temperature >= 80.25) {
+        if (blueballon.temperature >= 76.25) {
             blueballon.isPopped = true;
             createParticlesBlueBallonExplision(); // Erzeuge Partikel für Explosion
         }
